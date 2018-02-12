@@ -190,13 +190,13 @@ and newer. This module will not function with older than 8.2 versions of node.js
 
 This is __NOT__ an official client from Sector Alarm. This client uses the exact
 same http endpoints which their web and mobile apps does. This client was
-developed out of looking at these http calls and are imitating these.
+developed out of looking at these http requests and are imitating these.
 
 Be aware that these endpoints can be changed at any time by Sector Alarm and that
 this module can be rendered broken at any time due to this.
 
 Sector Alarm does not currently provide a public API for their alarms and this
-is a reverse enginered module using the APIs exposed for their web and mobile
+is a reverse engineered module using the APIs exposed for their web and mobile
 applications. Iow; how we log on here is not optimal from a security perspective.
 By using this module one are leaving all credentials needed to arm and disarm
 an alarm in clear text in your program. By using this module you are fully aware
@@ -225,6 +225,10 @@ run programatical operations on.
 If you ever want input on such an API I'll be more than happy to provide feedback
 on what I would love to see and be able to integrate. If ever such an public API
 surface I'll be more then happy to terminate this module...
+
+No altering or illegal tampering with the alarm itself, mobile applications or web
+site have been done to develop this module. Its been developed by purly looking at
+the http requests going on in your web client.
 
 
 ## License
