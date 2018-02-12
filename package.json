@@ -5,7 +5,9 @@
   "keywords": [
     "sector",
     "alarm",
-    "sector-alarm"
+    "sector-alarm",
+    "smarthouse",
+    "iot"
   ],
   "main": "./lib/client.js",
   "directories": {
