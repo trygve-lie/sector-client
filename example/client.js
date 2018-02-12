@@ -1,6 +1,7 @@
 'use strict';
 
 const Client = require('../');
+
 const client = new Client();
 
 const USERNAME = '<YOUR USERNAME>';

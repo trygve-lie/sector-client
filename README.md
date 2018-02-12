@@ -112,7 +112,7 @@ client.system().then(info => {
 
 ### .status(panelId)
 
-Get current status of an alarm system. The mathod takes the `panelId` of the
+Get current status of an alarm system. The method takes the `panelId` of the
 alarm as argument. Returns a `Promise`.
 
 ```js
@@ -126,7 +126,7 @@ client.status('system-panelId').then(status => {
 
 ### .history(panelId)
 
-List the history of an alarm system. The mathod takes the `panelId` of the
+List the history of an alarm system. The method takes the `panelId` of the
 alarm as argument. Returns a `Promise`.
 
 ```js
@@ -140,7 +140,7 @@ client.history('system-panelId').then(history => {
 
 ### .armPartial(panelId, key)
 
-Partially arm an alarm system. The mathod takes the `panelId` and `key` of the
+Partially arm an alarm system. The method takes the `panelId` and `key` of the
 alarm as arguments. Returns a `Promise`.
 
 ```js
@@ -152,9 +152,23 @@ client.armPartial('system-panelId', 'your-key').then(status => {
 ```
 
 
+### .armTotal(panelId, key)
+
+Totally arm an alarm system. The method takes the `panelId` and `key` of the
+alarm as arguments. Returns a `Promise`.
+
+```js
+client.armTotal('system-panelId', 'your-key').then(status => {
+    console.log(status);
+}).catch(error => {
+    console.error(error);
+});
+```
+
+
 ### .disarm(panelId, key)
 
-Disarms an alarm system. The mathod takes the `panelId` and `key` of the
+Disarms an alarm system. The method takes the `panelId` and `key` of the
 alarm as arguments. Returns a `Promise`.
 
 ```js
