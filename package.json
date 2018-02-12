@@ -1,0 +1,33 @@
+{
+  "name": "sector-client",
+  "version": "1.0.0",
+  "description": "Node client for Sector Alarm. Checks status and arms / disarms the alarm.",
+  "keywords": [
+    "sector",
+    "alarm",
+    "sector-alarm"
+  ],
+  "main": "./lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trygve-lie/sector-client.git"
+  },
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trygve-lie/sector-client/issues"
+  },
+  "homepage": "https://github.com/trygve-lie/sector-client#readme",
+  "devDependencies": {
+    "eslint": "4.16.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  }
+}
