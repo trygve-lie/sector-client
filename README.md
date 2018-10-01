@@ -1,6 +1,6 @@
 # sector-client
 
-[![Dependencies](https://img.shields.io/david/trygve-lie/sector-client.svg?style=flat-square)](https://david-dm.org/trygve-lie/sector-client)
+[![Dependencies](https://img.shields.io/david/trygve-lie/sector-client.svg?style=flat-square)](https://david-dm.org/trygve-lie/sector-client) [![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/sector-client.svg)](https://greenkeeper.io/)
 
 Node client for Sector Alarm. Checks status and arms / disarms the alarm.
 
